@@ -27,14 +27,15 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I turn imagination into interactive web experiences.
+        I make ideas come 
+        alive on the web.
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             My passion lies in creating solutions that drive growth and enhance 
-            user experiences. Whether it's building a website to increase 
+            user experiences. Whether it&apos;s building a website to increase 
             visibility or developing software that automates tasks, I enjoy 
             helping projects evolve and improve over time, moving from initial 
             ideas to refined, functional outcomes.
