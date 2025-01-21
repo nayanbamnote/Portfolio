@@ -13,49 +13,67 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
-      // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      title: "CaseCobra",
+      gitLink: "https://github.com/nayanbamnote/casecobra.git",
+      liveLink: "https://casecobra-two-drab.vercel.app/",
       about:
-        "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/offset-folio.svg",
+        "CaseCobra is a custom phone case ordering platform that allows users to design their own phone cases with personalized images and styles. The application integrates secure authentication via Clerk and payment processing via Stripe, providing a seamless user experience for creating and purchasing custom phone cases.",
+      stack: ["next.js", "react", "supabase", "prisma", "clerk", "stripe"],
+      img: "/casecobraimage.png",
     },
     {
-      title: "Shortly",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://lnk-shortener.netlify.app/",
+      title: "BDCOE Student Portal",
+      gitLink: "https://github.com/nayanbamnote/bdcoe.git",
+      liveLink: "https://bdcoe.vercel.app/",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/shortly.svg",
+        "BDCOE Student Portal is a sophisticated web application built to digitalize the traditional mentor-mentee form system for the Computer Department. The platform streamlines the process of collecting and managing student information, replacing paper-based forms with a modern digital solution.",
+      stack: ["next.js", "react", "typescript", "tailwindcss", "clerk", "prisma", "edgestore", "shadcn/ui", "framer-motion"],
+      img: "/bdcoeimage.png",
     },
     {
-      title: "Where in the world",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
+      title: "AI Resume Builder",
+      gitLink: "https://github.com/nayanbamnote/AI_Resume_Builder.git",
+      liveLink: "https://ai-resume-builder-alpha.vercel.app/",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
-      img: "/witw.svg",
+        "AI Resume Builder is a modern web application that helps users create professional resumes with AI assistance. The platform offers an intuitive interface for building customized resumes with features like AI-powered content generation, real-time preview, and multiple resume management.",
+      stack: ["vite", "react", "clerk", "google-generative-ai", "shadcn/ui", "react-to-pdf"],
+      img: "/aibuilder.png",
     },
-    // {
-    //   title: "Yourtodo",
-    //   gitLink: "https://github.com/adex-hub/Yourtodo",
-    //   liveLink: "https://yourtodo-v1.vercel.app/",
-    //   about:
-    //     "This task management system lets you customize your name, add, delete, and edit tasks, and celebrates you when tasks are completed. It features built-in notifications and stores data in the browser, allowing you to resume tasks conveniently. Designed and developed by yours truly.",
-    //   stack: ["react", "javascript", "figma", "sass"],
-    //   img: "/todo.svg",
-    // },
     {
-      title: "Multi-step form",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://ade-loremgaming.netlify.app/",
+      title: "VidConnect",
+      gitLink: "https://github.com/nayanbamnote/VidConnect.git",
+      liveLink: "https://vid-connect-three.vercel.app/",
       about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
-      img: "/multistep.svg",
+        "VidConnect is a versatile video conferencing and management application designed for seamless communication and collaboration. It provides robust functionality for managing meetings and recordings with secure authentication via Clerk, and integrates advanced chat, video, and feeds features using Stream.",
+      stack: ["next.js", "react", "clerk", "stream"],
+      img: "/vidconnectimage.png",
+    },    
+    {
+      title: "TrendyMart",
+      gitLink: "https://github.com/nayanbamnote/TrendyMart.git",
+      liveLink: "https://trendy-mart-pi.vercel.app/",
+      about:
+        "This is a modern eCommerce website built with Next.js and TypeScript. The site provides a seamless shopping experience with user authentication and a user-friendly interface for browsing products, managing a shopping cart, and more.",
+      stack: ["next.js", "react", "clerk", "tailwindcss", "shadcn/ui"],
+      img: "/trendymart.png",
+    },    
+    {
+      title: "Birthday Website",
+      gitLink: "https://github.com/nayanbamnote/toshita_birthday.git",
+      liveLink: "https://toshita-birthday.vercel.app/",
+      about:
+        "A heartfelt birthday celebration website built for Toshita, featuring an interactive starry night theme with animated elements, video messages from family members, and a real-time message wall where visitors can leave birthday wishes. The site combines stunning visuals with personal touches to create a memorable digital birthday experience.",
+      stack: ["next.js", "react", "typescript", "MongoDB", "tailwindcss", "framer-motion", "Prisma", "canvas-confetti", "TSParticles"],
+      img: "/download.jpg",
+    },
+    {
+      title: "User Registration Form",
+      gitLink: "https://github.com/nayanbamnote/Bilateral-Solution-Assignment.git",
+      liveLink: "https://bilateral-solution-assignment.vercel.app/",
+      about:
+        "This is a user registration form built with Next.js and TypeScript. This project was completed as part of an assignment to create a form with data binding and submission handling. It demonstrates proper implementation of reactive forms, two-way data binding, form validation, and submission handling.",
+      stack: ["next.js", "react", "React Hook Form", "Zod", "Shadcn UI components", "Aceternity UI"],
+      img: "/Form.png",
     },
   ];
 

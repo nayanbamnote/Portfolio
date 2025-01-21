@@ -27,6 +27,7 @@ const config: Config = {
       },
       screens: {
         smm: "435px",
+        img: "1100px"
       },
     },
   },

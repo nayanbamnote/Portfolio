@@ -27,23 +27,20 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I amplify brand voices through the web
+        I turn imagination into interactive web experiences.
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
-            publicity or software solutions that streamline otherwise manual
-            processes, I love taking brands from point A to the their dreamy
-            point B and iteratively improve as time goes on.
+            My passion lies in creating solutions that drive growth and enhance 
+            user experiences. Whether it's building a website to increase 
+            visibility or developing software that automates tasks, I enjoy 
+            helping projects evolve and improve over time, moving from initial 
+            ideas to refined, functional outcomes.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+          From writing my first lines of code back in late 2023 to this point, I have continually refined my development skills over time, picking up UI/UX design along the way. I focus on solving complex challenges, increasing the complexity as time goes by to ensure continuous improvement.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             Each challenge is unique so I ensure that I learn and grow through
@@ -53,7 +50,7 @@ export default function About() {
             <Link
               className="underline"
               href={
-                "https://drive.google.com/file/d/1Rd-IB_5pxsGj4RDtHjEggPB392ND29xB/view?usp=sharing"
+                "https://drive.google.com/file/d/16mUC6kpMvcexWZBb8uDw1f3IjUwpE7u3/view?usp=drive_link"
               }
             >
               my résumè
@@ -86,7 +83,7 @@ export default function About() {
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
               CSS3/SCSS/SASS, Tailwind CSS, Styled Components, Chakra UI, Framer
-              Motion, Bootstrap, ReCharts.
+              Motion, Shadcn/UI, ReCharts.
             </AnimatedBody>
           </div>
           <div>
@@ -95,10 +92,10 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Design Tools
+              ThirdParty Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, UX Research, UI Design, Prototyping.
+              Clerk, Vercel, Supabase, Stripe, Edgestore, EmailJS, etc.
             </AnimatedBody>
           </div>
         </div>
