@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import styles from "./TimelineItem.module.css";
 
@@ -35,22 +34,24 @@ export default function TimelineItem({
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"
       }`}
     >
-      <Image
-        src="/position-icon.svg"
-        width={24}
-        height={24}
-        alt="current"
-        className="absolute -translate-x-[29px] sm:-translate-x-8 left-0"
-      />
+      <img 
+  src="./position-icon.svg" 
+  width="24" 
+  height="24" 
+  alt="current" 
+  className="absolute -translate-x-[29px] sm:-translate-x-8 left-0" 
+/>
+
 
       <div className="grid grid-cols-5 sm:flex items-start gap-4 pl-4">
-        <Image
-          src={companyImg}
-          width={70}
-          height={70}
-          alt="company-image"
-          className="col-span-1"
-        />
+      <img 
+  src={companyImg} 
+  width="70" 
+  height="70" 
+  alt="company-image" 
+  className="col-span-1" 
+/>
+
 
         {/* ALL THE TEXT*/}
         <div className={`${styles.timeline} col-span-4`}>

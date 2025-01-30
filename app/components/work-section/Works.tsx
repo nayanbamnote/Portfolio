@@ -19,7 +19,7 @@ export default function Works() {
       about:
         "CaseCobra is a custom phone case ordering platform that allows users to design their own phone cases with personalized images and styles. The application integrates secure authentication via Clerk and payment processing via Stripe, providing a seamless user experience for creating and purchasing custom phone cases.",
       stack: ["next.js", "react", "supabase", "prisma", "clerk", "stripe"],
-      img: "/casecobraimage.png",
+      img: "./casecobraimage.png",
     },
     {
       title: "BDCOE Student Portal",
@@ -28,7 +28,7 @@ export default function Works() {
       about:
         "BDCOE Student Portal is a sophisticated web application built to digitalize the traditional mentor-mentee form system for the Computer Department. The platform streamlines the process of collecting and managing student information, replacing paper-based forms with a modern digital solution.",
       stack: ["next.js", "react", "typescript", "tailwindcss", "clerk", "prisma", "edgestore", "shadcn/ui", "framer-motion"],
-      img: "/bdcoeimage.png",
+      img: "./bdcoeimage.png",
     },
     {
       title: "AI Resume Builder",
@@ -37,7 +37,7 @@ export default function Works() {
       about:
         "AI Resume Builder is a modern web application that helps users create professional resumes with AI assistance. The platform offers an intuitive interface for building customized resumes with features like AI-powered content generation, real-time preview, and multiple resume management.",
       stack: ["vite", "react", "clerk", "google-generative-ai", "shadcn/ui", "react-to-pdf"],
-      img: "/aibuilder.png",
+      img: "./aibuilder.png",
     },
     {
       title: "VidConnect",
@@ -46,7 +46,7 @@ export default function Works() {
       about:
         "VidConnect is a versatile video conferencing and management application designed for seamless communication and collaboration. It provides robust functionality for managing meetings and recordings with secure authentication via Clerk, and integrates advanced chat, video, and feeds features using Stream.",
       stack: ["next.js", "react", "clerk", "stream"],
-      img: "/vidconnectimage.png",
+      img: "./vidconnectimage.png",
     },    
     {
       title: "TrendyMart",
@@ -55,7 +55,7 @@ export default function Works() {
       about:
         "This is a modern eCommerce website built with Next.js and TypeScript. The site provides a seamless shopping experience with user authentication and a user-friendly interface for browsing products, managing a shopping cart, and more.",
       stack: ["next.js", "react", "clerk", "tailwindcss", "shadcn/ui"],
-      img: "/trendymart.png",
+      img: "./trendymart.png",
     },    
     {
       title: "Birthday Website",
@@ -64,7 +64,7 @@ export default function Works() {
       about:
         "A heartfelt birthday celebration website built for Toshita, featuring an interactive starry night theme with animated elements, video messages from family members, and a real-time message wall where visitors can leave birthday wishes. The site combines stunning visuals with personal touches to create a memorable digital birthday experience.",
       stack: ["next.js", "react", "typescript", "MongoDB", "tailwindcss", "framer-motion", "Prisma", "canvas-confetti", "TSParticles"],
-      img: "/download.jpg",
+      img: "./download.jpg",
     },
     {
       title: "User Registration Form",
@@ -73,7 +73,7 @@ export default function Works() {
       about:
         "This is a user registration form built with Next.js and TypeScript. This project was completed as part of an assignment to create a form with data binding and submission handling. It demonstrates proper implementation of reactive forms, two-way data binding, form validation, and submission handling.",
       stack: ["next.js", "react", "React Hook Form", "Zod", "Shadcn UI components", "Aceternity UI"],
-      img: "/Form.png",
+      img: "./Form.png",
     },
   ];
 

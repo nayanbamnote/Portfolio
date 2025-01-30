@@ -1,6 +1,5 @@
 "use client";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Tag from "./Tag";
@@ -37,13 +36,14 @@ export default function FolioCard({
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
     >
-      <Image
-        src={img}
-        width={420}
-        height={700}
-        alt="work"
-        className="rounded-[10px] max-img:w-full  lg:col-span-5"
-      />
+      <img 
+  src={img} 
+  width="420" 
+  height="700" 
+  alt="work" 
+  className="rounded-[10px] max-img:w-full lg:col-span-5" 
+/>
+
       <div className="flex flex-col gap-4 lg:col-span-7">
         <div className="flex items-center justify-between">
           <h2 className="text-3xl sm:text-4xl xl:text-5xl font-bold">

@@ -1,7 +1,6 @@
 // "use client";
 import Link from "next/link";
 import { Syne } from "next/font/google";
-import Image from "next/image";
 import { useView } from "@/contexts/ViewContext";
 import { useEffect } from "react";
 
@@ -21,7 +20,8 @@ function NotFound() {
           Page not found
         </h1>
         <div className="relative col-span-3">
-          <Image className="w-fit" src="/pnf.svg" fill alt="remorse" />
+        <img className="w-fit" src="./pnf.svg" alt="remorse" />
+
         </div>
       </div>
       <Link

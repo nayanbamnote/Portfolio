@@ -1,7 +1,6 @@
 "use client";
 import { useView } from "@/contexts/ViewContext";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import MobileMenu from "./MobileMenu";
@@ -15,13 +14,13 @@ export default function Header() {
     <>
       <div className="fixed max-w-[90%] xl:max-w-[1223px] w-full z-10 select-none">
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
-          <Image
-            src="/nayan-logo.svg"
-            width={32}
-            height={36}
-            alt="logo"
-            className="select-none"
-          />
+        <img 
+  src="./nayan-logo.svg" 
+  width="32" 
+  height="36" 
+  alt="logo" 
+  className="select-none" 
+/>
           <Icon
             onClick={() => setMenuOpen(!menuOpen)}
             className="cursor-pointer flex sm:hidden text-2xl"

@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import {
   delay,
@@ -80,12 +79,12 @@ export default function Hero() {
             style={{ transformOrigin: "bottom right" }}
             className="col-span-3"
           >
-            <Image
-              src="/hand-wave.svg"
-              width={30}
-              height={30}
-              alt="hand-waving"
-            />
+            <img 
+  src="./hand-wave.svg" 
+  width="30" 
+  height="30" 
+  alt="hand-waving" 
+/>
           </motion.div>
         </motion.div>
         <motion.h1
@@ -118,13 +117,11 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
-          <Image
-            src="/nayan-trasparent3-removebg-preview.png"
-            priority
-            fill
-            alt="Nayan's picture"
-            className="bg-image-radial px-10 pt-20"
-          />
+          <img 
+  src="./nayan-trasparent3-removebg-preview.png" 
+  alt="Nayan's picture" 
+  className="bg-image-radial px-10 pt-20 w-full h-full object-cover" 
+/>
         </motion.div>
       </div>
     </section>

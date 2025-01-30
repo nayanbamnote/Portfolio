@@ -7,7 +7,7 @@ const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
   {
-    companyImg: "/bluechip.svg",
+    companyImg: "./bluechip.svg",
     jobTitle: "React Developer Intern",
     company: "Plazmacloud Technology",
     jobType: "Internship",
@@ -25,7 +25,7 @@ const TimelineData = [
     ],
   },
   {
-    companyImg: "/nnpc.svg",
+    companyImg: "./nnpc.svg",
     jobTitle: "Frontend Developer Intern",
     company: "DevForge Solutions",
     jobType: "Internship",
