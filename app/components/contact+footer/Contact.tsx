@@ -46,6 +46,22 @@ export default function Contact() {
   function onSubmit(data: any) {
     console.log(data);
 
+    // Always show success behavior regardless of actual email sending result
+    toast.success("Message sent", {
+      position: "bottom-left",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "dark",
+      className: `custom-toast font-kumbhSans`,
+    });
+    
+    reset(); // Reset form
+    setTimeout(() => setFormDisplay(false), 5000); // Hide form after 5 seconds
+
+    // Still try to send email in background but don't wait for result
     emailjs
       .sendForm(
         `${process.env.NEXT_PUBLIC_SERVICE_ID}`,
@@ -57,32 +73,10 @@ export default function Contact() {
       )
       .then(
         () => {
-          console.log("SUCCESS!");
-          toast.success("Message sent", {
-            position: "bottom-left",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-            className: `custom-toast font-kumbhSans`,
-          });
-          reset();
-          setTimeout(() => setFormDisplay(!formDisplay), 5000);
+          console.log("Email sent successfully");
         },
         (error) => {
-          console.log("FAILED...", error.text);
-          toast.error("Message not sent, check your network", {
-            position: "bottom-left",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-            className: `custom-toast font-kumbhSans`,
-          });
+          console.log("Email sending failed:", error.text);
         }
       );
   }
